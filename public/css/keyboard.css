@@ -26,3 +26,12 @@
 .typing-display {
     font-size: 3rem;
 }
+
+.active {
+    background: rgb(225, 234, 255);
+}
+
+.navi-active {
+    background: rgb(255, 66, 66);
+    color: white;
+}
