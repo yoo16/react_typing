@@ -135,26 +135,38 @@ export const kana50: {
     'da': ['だ', 'ぢ', 'づ', 'で', 'ど'],
     'ba': ['ば', 'び', 'ぶ', 'べ', 'ぼ'],
     'pa': ['ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ'],
+    'sya': ['しゃ', 'しぃ', 'しゅ', 'しぇ', 'しょ'],
+    'hya': ['ひゃ', 'ひぃ', 'ひゅ', 'ひぇ', 'ひょ'],
+    'fa': ['ふぁ', 'ふぃ', 'ふぅ', 'ふぇ', 'ふぉ'],
     'gya': ['ぎゃ', 'ぎゅ', 'ぎょ'],
+    'rya': ['りゃ', 'りゅ', 'りょ'],
+    'ja': ['じゃ', 'じゅ', 'じょ'],
+    'la': ['ぁ', 'ぃ', 'ぅ', 'ぇ', 'ぉ'],
 }
 
 export const romaji50: {
-    [key: string]: string[]
+    [key: string]: any
 } = {
     'a': ['a', 'i', 'u', 'e', 'o'],
     'ka': ['ka', 'ki', 'ku', 'ke', 'ko'],
     'sa': ['sa', 'si', 'su', 'se', 'so'],
     'ta': ['ta', 'ti', 'tu', 'te', 'to'],
     'na': ['na', 'ni', 'nu', 'ne', 'no'],
-    'ha': ['ha', 'hi', 'fu', 'he', 'ho'],
+    'ha': ['ha', 'hi', ['fu', 'hu'], 'he', 'ho'],
     'ma': ['ma', 'mi', 'mu', 'me', 'mo'],
     'ya': ['ya', 'yu', 'yo'],
     'ra': ['ra', 'ri', 'ru', 're', 'ro'],
     'wa': ['wa', 'wo', 'nn'],
     'ga': ['ga', 'gi', 'gu', 'ge', 'go'],
     'za': ['za', 'ji', 'zu', 'ze', 'zo'],
-    'da': ['da', 'ji', 'du', 'de', 'do'],
+    'da': ['da', 'di', 'du', 'de', 'do'],
     'ba': ['ba', 'bi', 'bu', 'be', 'bo'],
     'pa': ['pa', 'pi', 'pu', 'pe', 'po'],
+    'sya': ['sya', 'syi', 'syu', 'sye', 'syo'],
+    'hya': ['hya', 'hyi', 'hyu', 'hye', 'hyo'],
+    'fa': ['fa', 'fi', 'fwu', 'fe', 'fo'],
     'gya': ['gya', 'gyu', 'gyo'],
+    'rya': ['rya', 'ryu', 'ryo'],
+    'ja': ['ja', 'ju', 'jo'],
+    'la': ['la', 'li', 'lu', 'le', 'lo'],
 }

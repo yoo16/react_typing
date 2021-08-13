@@ -1,37 +1,35 @@
 .keyboard-key {
-    width: 50px;
-    height: 50px;
-    min-width: 50px;
     margin: 2px;
     padding: 2px;
+}
 
-    display: table;
-    font-size: 1.2em;
-    text-align: center;
-
-    border-radius: 5px;
-    background: rgb(31, 43, 45);
-    color: white;
-
-    background: rgb(255, 255, 255);
+.btn-key {
+    margin: 2px;
     border: 1px solid rgb(31, 99, 182);
+    color: rgb(31, 99, 182);
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 55px;
+    min-width: 55px;
+    height: 55px;
+}
+
+.btn-key:hover {
+    background-color: white;
     color: rgb(31, 99, 182);
 }
 
-.keyboard-key-inner {
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .typing-display {
-    font-size: 3rem;
+    font-size: 5rem;
+    color: rgb(16, 95, 155);
 }
 
-.active {
-    background: rgb(225, 234, 255);
+.btn-key.active {
+    background: rgb(169, 185, 220);
+    color: rgb(16, 95, 155);
 }
 
 .navi-active {
-    background: rgb(255, 66, 66);
+    background: rgb(16, 95, 155);
     color: white;
 }

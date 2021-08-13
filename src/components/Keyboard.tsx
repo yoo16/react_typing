@@ -46,10 +46,10 @@ export const Keyboard: React.FC<Props> = (props: Props) => {
         </div>
     }
     const keyClassName = (value: string, target: string) => {
-        let className = 'keyboard-key';
+        let className = 'btn-key btn btn-outline-primary';
         if (isKeyDown && value == target) {
             className += ' active';
-        } else if (isNavi 
+        } else if (isNavi
             && currentCharacter
             && target == currentCharacter.toUpperCase()) {
             className += ' navi-active';
@@ -57,20 +57,18 @@ export const Keyboard: React.FC<Props> = (props: Props) => {
         return className;
     }
     const KeyUnit: React.VFC<KeyProps> = (props: KeyProps) => {
-        return <div
+        return <button
             id={'key-' + props.id}
             className={keyClassName(props.currentKey, props.value)}>
-            <div className="keyboard-key-inner">
-                {props.value}
-            </div>
-        </div >
+            {props.value}
+            </button >
     }
 
-    return (
-        <div className="m-5">
-            <KeyUnits values={props.keyboards} currentKey={props.currentKey} />
-        </div>
-    )
+return (
+    <div className="m-3">
+        <KeyUnits values={props.keyboards} currentKey={props.currentKey} />
+    </div>
+)
 
 }
 
