@@ -6,7 +6,7 @@ export const characters: {
         sound: string,
     }
 } = {
-    'space': { 'code': 32, 'label': '!', 'string': '!', 'sound': 'すぺーす' },
+    'space': { 'code': 32, 'label': '', 'string': '', 'sound': 'すぺーす' },
     '!': { 'code': 33, 'label': '!', 'string': '!', 'sound': 'びっくりまーく' },
     '"': { 'code': 34, 'label': '"', 'string': '"', 'sound': 'だぶるくぉーと' },
     '#': { 'code': 35, 'label': '#', 'string': '#', 'sound': 'しゃーぷ' },
@@ -24,12 +24,12 @@ export const characters: {
     '=': { 'code': 61, 'label': '-', 'string': '-', 'sound': 'いこーる' },
     '^': { 'code': 94, 'label': '^', 'string': '^', 'sound': 'きゃれっと' },
     '`': { 'code': 94, 'label': '`', 'string': '`', 'sound': 'ばっくくぉーと' },
-    '~': { 'code': 126, 'label': '^', 'string': '^', 'sound': 'ちるだ' },
+    '~': { 'code': 126, 'label': '~', 'string': '~', 'sound': 'ちるだ' },
     '¥': { 'code': 165, 'label': '¥', 'string': '¥', 'sound': 'えんまーく' },
     '|': { 'code': 124, 'label': '^', 'string': '^', 'sound': 'ぱいぷ' },
     '@': { 'code': 64, 'label': '@', 'string': '@', 'sound': 'あっとまーく' },
-    '<': { 'code': 60, 'label': '<', 'string': '<', 'sound': '小なり' },
-    '>': { 'code': 62, 'label': '>', 'string': '>', 'sound': '大なり' },
+    '<': { 'code': 60, 'label': '<', 'string': '<', 'sound': 'しょうなり' },
+    '>': { 'code': 62, 'label': '>', 'string': '>', 'sound': 'だいなり' },
     '[': { 'code': 91, 'label': '[', 'string': '[', 'sound': 'ぶらけっと（ひだり）' },
     ']': { 'code': 93, 'label': ']', 'string': ']', 'sound': 'ぶらけっと（みぎ）' },
     ':': { 'code': 58, 'label': ':', 'string': ':', 'sound': 'ころん' },
@@ -170,3 +170,17 @@ export const romaji50: {
     'ja': ['ja', 'ju', 'jo'],
     'la': ['la', 'li', 'lu', 'le', 'lo'],
 }
+
+export const alphabets = [
+    'a', 'b', 'c', 'd', 'e', 'f', 'g',
+    'h', 'i', 'j', 'k', 'l', 'm', 'n',
+    'o', 'p', 'q', 'r', 's', 't', 'u',
+    'v', 'w', 'x', 'y', 'z',
+];
+
+export const upperAlphabets = [
+    'A', 'B', 'C', 'D', 'E', 'F', 'G',
+    'H', 'I', 'J', 'K', 'L', 'M', 'N',
+    'O', 'P', 'Q', 'R', 'S', 'T', 'U',
+    'V', 'W', 'X', 'Y', 'Z',
+];

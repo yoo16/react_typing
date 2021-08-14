@@ -14,13 +14,18 @@
     height: 55px;
 }
 
+.btn-kana {
+    width: 80px;
+    min-width: 80px;
+}
+
 .btn-key:hover {
     background-color: white;
     color: rgb(31, 99, 182);
 }
 
 .typing-display {
-    font-size: 5rem;
+    font-size: 4rem;
     color: rgb(16, 95, 155);
 }
 

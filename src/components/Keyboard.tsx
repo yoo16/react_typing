@@ -61,14 +61,14 @@ export const Keyboard: React.FC<Props> = (props: Props) => {
             id={'key-' + props.id}
             className={keyClassName(props.currentKey, props.value)}>
             {props.value}
-            </button >
+        </button >
     }
 
-return (
-    <div className="m-3">
-        <KeyUnits values={props.keyboards} currentKey={props.currentKey} />
-    </div>
-)
+    return (
+        <div className="m-3">
+            <KeyUnits values={props.keyboards} currentKey={props.currentKey} />
+        </div>
+    )
 
 }
 
